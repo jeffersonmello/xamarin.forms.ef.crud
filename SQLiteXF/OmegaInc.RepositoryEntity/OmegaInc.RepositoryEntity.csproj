@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="2.2.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\OmegaInc.Repository\OmegaInc.Repository.csproj" />
+    <ProjectReference Include="..\SQLiteXF.Data\SQLiteXF.Data.csproj" />
+  </ItemGroup>
+
+</Project>
